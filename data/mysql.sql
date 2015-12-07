@@ -52,7 +52,7 @@ CREATE TABLE `Users` (
   `carma` int(9) DEFAULT '0',
   `thanks` int(9) DEFAULT '0',
   `avatarUrl` varchar(255) DEFAULT NULL,
-  PRIMARY KEY (`id`),
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 SET FOREIGN_KEY_CHECKS = 1;
